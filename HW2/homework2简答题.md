@@ -191,7 +191,7 @@ public class sun : MonoBehaviour {
 
 
 
->>* 太阳系的完成代码请看我的github，请点击这里。
+>>* 太阳系的完成代码请看我的github，[请点击这里][https://github.com/EmilyBlues/Unity-learning/tree/master/HW2/SolarSystem]。
 
 
 
