@@ -148,7 +148,8 @@ public class Rotation : MonoBehaviour {
         ry = Random.Range(10, 60);
 	}
 	
-	// Update is called once per frame
+
+// Update is called once per frame
 	void Update () {
         Vector3 axis = new Vector3(rx, ry, 0);
         this.transform.RotateAround(MyCenter.position, axis, speed * Time.deltaTime);
@@ -187,6 +188,7 @@ public class sun : MonoBehaviour {
 >>* 最后效果如图所示：
 ![这里写图片描述](https://img-blog.csdn.net/20180401213853141?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0VtaWx5Qmx1c2U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 ![这里写图片描述](https://img-blog.csdn.net/20180401213901628?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0VtaWx5Qmx1c2U=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 
 
 >>* 太阳系的完成代码请看我的github，请点击这里。
