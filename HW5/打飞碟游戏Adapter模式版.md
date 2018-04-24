@@ -269,4 +269,4 @@ public class UFOFlyAction : SSAction {
 }
 ``` 
 在本次作业中，主要是修改了代码的结构，对游戏的总体的效果来说，并没有什么很大的改变，这里是上周游戏的视频录像[传送门](https://github.com/EmilyBlues/Unity3d-HW4/blob/master/HitUFO.mp4)，有兴趣的小伙伴可以看看哦。
-作业源代码[传送门]()。
+作业源代码[传送门](https://github.com/EmilyBlues/Unity-learning/tree/master/HW5/Scripts)。
