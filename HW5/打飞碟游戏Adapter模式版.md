@@ -33,12 +33,12 @@ public interface ISSActionCallback
     void SSActionEvent(SSAction source, SSActionEventType events = SSActionEventType.Competeted,
         int intParam = 0, string strParam = null, Object objectParam = null);
 }
-\\场景控制类
+//场景控制类
 public interface ISceneController
 {
     void LoadResources();
 }
-\\之前已有的接口类，新增击中方法在其中，配置成Disk的Adapter接口
+//之前已有的接口类，新增击中方法在其中，配置成Disk的Adapter接口
 public interface IUserAction
 {
     void Restart();
@@ -53,15 +53,15 @@ public interface IUserAction
 ```C#
 public class UFOFlyAction : SSAction {
     public float gravity = -5; 
-    \\设置物体下落时的重力
+    //设置物体下落时的重力
     private Vector3 startVector;
-    \\结合后面的随机，让物体出现的位置随机
+    //结合后面的随机，让物体出现的位置随机
     private Vector3 gravityVector = Vector3.zero;
-    \\物体做平抛运动是改变的位置
+    //物体做平抛运动是改变的位置
     private float time;
-    \\记录物体运动的时间，并在Update中更新
+    //记录物体运动的时间，并在Update中更新
     private Vector3 currentAngle = Vector3.zero;
-    \\记录物体抛出的角度
+    //记录物体抛出的角度
 
     private UFOFlyAction () { }
 
